@@ -1,0 +1,88 @@
+@charset "utf-8";
+
+ins,del {
+  display; block;
+}
+
+p ins,p del,
+ul ins, ul del,
+ol ins, ol del,
+dl ins, dl del,
+table ins, table del {
+  display: inline;
+}
+
+body,
+div,
+dl,dt,dd,ul,ol,li,
+h1,h2,h3,h4,h5,h6,
+pre,
+form,fieldset,
+p,blockquote,
+table,thead,tbody,tfoot,caption,th,td {
+  margin: 0;
+  padding: 0;
+}
+
+ol,ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+fieldset, img {
+  border: 0 none;
+}
+
+abbr,acronym {
+  border-bottom: 1px dashed:
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+address, caption, cite, code, dfn, em, strong, th, var {
+  font-style: normal;
+  font-weight: normal;
+}
+
+table {
+  font-size: 100%;
+}
+
+select, input, textarea {
+  font-size: 100%;
+  font-weight: bold;
+}
+
+var,code,samp,kbd {
+  font-family: monospace;
+}
+
+html{
+  overflow: scroll;
+  overflow: -moz-scrollbars-vertical;
+}
+
+textarea {
+  overflow: auto;
+}
+
+caption, th {
+  text-align: left;
+}
+
+img, input {
+  vertical-align: middle;
+}
+
+a, input[type="submit"] {
+  cursor: pointer;
+}
+
+
